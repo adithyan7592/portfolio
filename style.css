@@ -527,24 +527,17 @@ form {
     margin-left: 70px;
   }
 }
-@media (min-width: 768px) {
-  #projects {
-    grid-template-columns: repeat(2, 1fr); 
+@media (max-width: 900px) {
+  #projects, .projectcontainer {
+ display: flex;
+ flex-direction: column; 
+    gap: 40px; 
   }
-}
 
-
-@media (min-width: 1024px) {
-  #projects {
-    grid-template-columns: repeat(3, 1fr); 
-  }
-}
-
-
-@media (max-width: 767px) {
   .projectlink {
-    font-size: 16px;
     padding: 10px 20px; 
+    font-size: 16px;
+    max-width: 100%; 
   }
 }
 
