@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Major+Mono+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-  font-family: "DM Serif Text", serif;
+ 
   background-color: #e2dddf;
+  font-family: "DynaPuff", serif;
 
 }
+
 h1, h2, h3 {
-  font-family: "DM Serif Text", serif;
   text-transform: uppercase;
+  font-family: "DynaPuff", serif;
 
 }
 #container{
@@ -28,10 +29,10 @@ h3 {
   font-size: 2rem;
 }
 .educationport p , strong {
-  font-family: "DM Serif Text", serif;
+  font-family: "DynaPuff", serif;
 }
 #education,.educationport:hover{
-  font-family: "DM Serif Text", serif;
+  font-family: "DynaPuff", serif;
   text-transform: uppercase;
   font-size: larger;
   transition: all 0.3s ease; 
@@ -134,12 +135,13 @@ nav {
   margin: 0;
 }
 
+
 .greeting {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .name {
-  font-size: 36px;
+  font-size: 50px;
   /* color: #d1f7ff; */
   text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3); 
 }
@@ -149,7 +151,6 @@ nav {
   line-height: 1.6;
   color: #555;
   /* color: #d1f7ff; */
-  /* font-family: "EB Garamond", serif; */
   color: #555;
 }
 .mainsection {
@@ -204,11 +205,11 @@ nav {
   align-items: flex-start;
 }
 #message{
-  font-family: "DM Serif Text", serif;
+  font-family: "DynaPuff", serif;
   /* color: #d1f7ff; */
 }
 #footer{
-  font-family: "DM Serif Text", serif;
+  font-family: "DynaPuff", serif;
   /* color: #d1f7ff; */
 }
 
@@ -410,7 +411,7 @@ justify-content: center;
 .about-text h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #333; /* Adjust as needed */
+
 }
 
 .about-text p {
@@ -426,6 +427,86 @@ justify-content: center;
   border-radius: 50%; /* Make the image circular */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #e2dddf;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#skills h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-card {
+  /* background-color: #fff; */
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.skill-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #484546;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skill-level.html {
+  width: 80%;
+  background-color: #f16529; 
+}
+
+.skill-level.css {
+  width: 80%;
+  background-color: #2965f1; 
+}
+
+.skill-level.javascript {
+  width: 80%;
+  background-color: #f7df1e; 
+}
+
+.skill-level.react {
+  width: 80%;
+  background-color: #61dafb; 
+}
+
+.skill-level.express {
+  width: 80%;
+  background-color: #000000;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
 
 
 
