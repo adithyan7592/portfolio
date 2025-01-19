@@ -152,7 +152,29 @@ nav {
   color: #555;
   /* color: #d1f7ff; */
   color: #555;
+  font-family: 'Poppins', sans-serif;
 }
+.name:hover {
+  color: #007bff; /* Bright blue color */
+  text-shadow: 0px 4px 10px rgba(0, 123, 255, 0.6); /* Glowing text effect */
+  transform: scale(1.1); /* Slight enlargement */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+  cursor: pointer; /* Indicates interactivity */
+}
+
+.aboutme p:hover {
+  color: #5c95d1;
+  text-shadow: 0px 2px 5px rgba(0, 123, 255, 0.3); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutme img:hover {
+  transform: scale(1.1); 
+  border: 5px solid #007bff;
+  transition: all 0.3s ease-in-out;
+}
+
 .mainsection {
   display: flex;
   flex-direction: column; 
@@ -167,8 +189,8 @@ nav {
   text-align: center;
   background-color: #e2dddf;
   border: 1px solid #ddd;
-  padding: 20px; /* Add padding for spacing */
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
 #education{
@@ -189,7 +211,8 @@ nav {
   padding: 20px;
   /* border-radius: 10px; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
-  text-align: center
+  text-align: center;
+
 }
 
 #contactmain{
@@ -206,11 +229,11 @@ nav {
 }
 #message{
   font-family: "DynaPuff", serif;
-  /* color: #d1f7ff; */
+ 
 }
 #footer{
   font-family: "DynaPuff", serif;
-  /* color: #d1f7ff; */
+
 }
 
 
@@ -278,8 +301,8 @@ nav {
 .contact-form button {
   padding: 10px 20px;
   font-size: 1em;
-  color: #fff;
-  background-color: #007bff;
+  color: #0d0d0d;
+  background-color: #fafbfd;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -287,7 +310,7 @@ nav {
 }
 
 .contact-form button:hover {
-  background-color: #0056b3;
+  background-color: #2586e6;
 }
 .content{
 display: flex;
@@ -411,6 +434,7 @@ justify-content: center;
 .about-text h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  
 
 }
 
@@ -418,13 +442,19 @@ justify-content: center;
   font-size: 1.2rem;
   line-height: 1.6;
   color: #555;
+  font-family: 'Poppins', sans-serif;
 }
-
+.about-text p:hover{
+  color: #5c95d1;
+  text-shadow: 0px 2px 5px rgba(0, 123, 255, 0.3); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease-in-out;
+}
 .about-image img {
-  width: 200px; /* Adjust size as needed */
-  height: 200px; /* Make the image a square */
-  object-fit: cover; /* Ensure the image maintains its aspect ratio */
-  border-radius: 50%; /* Make the image circular */
+  width: 200px;
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 #skills {
@@ -499,13 +529,22 @@ justify-content: center;
 
 .skill-level.express {
   width: 80%;
-  background-color: #000000;
+  background-color: #114576;
 }
 
 .skill-card p {
   font-size: 1rem;
   color: #555;
 }
+.skill-logo {
+  width: 50px; 
+  height: 50px;
+  margin-top: 10px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  object-fit: contain; 
+}
+
 
 
 
@@ -585,6 +624,7 @@ justify-content: center;
       margin-top: 15px; 
   }
 }
+
   
 }
 @media (max-width: 900px) {
