@@ -18,11 +18,11 @@
                 <img src="./images/S ADITHYAN (1).png" alt="" class="logo">
                 <ul>
                     <li><a href="" class="nav-link">HOME</a></li>
-                    <li><a href=""class="nav-link">EDUCATION</a></li>
-                    <li><a href=""class="nav-link">MY SKILLS</a></li>
-                    <li><a href=""class="nav-link">WHAT I'VE DONE</a></li>
-                    <li><a href=""class="nav-link">WHO AM I?</a></li>
-                    <li><a href=""class="nav-link">CONTACT ME</a></li>
+                    <li><a href="#education"class="nav-link">EDUCATION</a></li>
+                    <li><a href="#skills"class="nav-link">MY SKILLS</a></li>
+                    <li><a href="#projects"class="nav-link">WHAT I'VE DONE</a></li>
+                    <li><a href="#about"class="nav-link">WHO AM I?</a></li>
+                    <li><a href="#contact"class="nav-link">CONTACT ME</a></li>
                 </ul>
             </nav>
             
@@ -54,6 +54,7 @@
 <div id="skills" class="section">
     <h1>MY SKILLS</h1>
     <div class="skills-container">
+        <!-- Existing skills -->
         <div class="skill-card">
             <h2>HTML</h2>
             <div class="skill-bar">
@@ -93,6 +94,40 @@
             </div>
             <img src="./images/express-js.png" alt="Express Logo" class="skill-logo">
         </div>
+
+        <!-- New skills -->
+        <div class="skill-card">
+            <h2>Responsive</h2>
+            <div class="skill-bar">
+                <div class="skill-level responsive-design"></div>
+            </div>
+            <img src="./images/responsive.png" alt="Responsive Design Logo" class="skill-logo">
+        </div>
+
+        <div class="skill-card">
+            <h2>GitHub</h2>
+            <div class="skill-bar">
+                <div class="skill-level github"></div>
+            </div>
+            <img src="./images/github_PNG84.png" alt="GitHub Logo" class="skill-logo">
+        </div>
+
+        <div class="skill-card">
+            <h2>Bootstrap</h2>
+            <div class="skill-bar">
+                <div class="skill-level bootstrap"></div>
+            </div>
+            <img src="./images/bootstrap.png" alt="Bootstrap Logo" class="skill-logo">
+        </div>
+
+        <div class="skill-card">
+            <h2>Node.js</h2>
+            <div class="skill-bar">
+                <div class="skill-level nodejs"></div>
+            </div>
+            <img src="./images/node.jpg" alt="Node.js Logo" class="skill-logo">
+        </div>
+
     </div>
 </div>
 
@@ -152,37 +187,41 @@
         </p>
       </div>
       <div class="about-image">
-        <img src="./images/hi.jpg" alt="About Me Image" />
+        <img src="./images/about.gif" alt="About Me Image" />
       </div>
     </div>
   </div>
-<div id="contact" class="section">
+  <div id="contact" class="section">
     <h1>CONTACT ME </h1>
     <div id="contactmain">
-    <div class="contact-container">
-        <div class="contact-form">
-            <h3 id="message">Send Me a Message</h3>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="contact-intro">
-                <h3 id="footer">Wanna talk? Feel Free to contact me!</h3>
-                <div class="contact-number">
-                  <a href="tel:7592869704">
-                    <span class="phone-icon">📞</span> 
-                    <span class="phone-number">759-286-9704</span>
-                  </a>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3 id="message">Send Me a Message</h3>
+                
+                <form action="https://formspree.io/f/mwpvklde" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-intro">
+                    <h3 id="footer">Wanna talk? Feel Free to contact me!</h3>
+                    <div class="contact-number">
+                        <a href="tel:7592869704" class="phone-link">
+                            <span class="phone-icon">📞</span> 
+                            <span class="phone-number">759-286-9704</span>
+                        </a>
+                    </div>
+                    
+                      </a>
+                    </div>
                 </div>
-              </div>
-              
+            </div>
         </div>
     </div>
 </div>
-</div>
-</div>
+
+
 <div class="social-footer">
     <h3>Follow Me</h3>
     <div class="social-icons">
@@ -199,7 +238,10 @@
             <img src="./images/linkedin.jpg" alt="LinkedIn">
         </a>
     </div>
+
 </div>
+<div class="footer-note">
+    <p>&copy; 2025 <strong>Adithyan</strong> | All rights reserved.</p>
 </div>
 
 </body>
