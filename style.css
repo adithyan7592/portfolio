@@ -5,7 +5,12 @@
   /* background-color: #e2dddf; */
   font-family: "DynaPuff", serif;
   scrollbar-width: none;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 
+}
+body{
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
